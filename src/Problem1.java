@@ -15,6 +15,18 @@ public class Problem1 {
             e.printStackTrace();
         }
 
+        try {
+            phone.installApp(app2);
+        } catch (IncompatibleAppException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            phone.installApp(app3);
+        } catch (IncompatibleAppException e) {
+            e.printStackTrace();
+        }
+
     }
 }
 
